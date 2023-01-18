@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.mobile-car {
+  height: 250px;
+}
+@media (min-width: 640px) {
+  .mobile-car {
+    height: 350px;
+  }
+}
+@media (min-width: 1000px) {
+  .mobile-car {
+    height: 550px;
+  }
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

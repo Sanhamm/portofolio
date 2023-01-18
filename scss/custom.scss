@@ -1,5 +1,17 @@
 $primary:  #ffc062;
 $secondary: #ffd597;
 
+.mobile-car{
+    height: 250px;
+    
+    @media (min-width: 640px) {
+        height: 350px;
+    }
+    @media (min-width: 1000px) {
+        height: 550px;
+        
+    }
+}
+
 
 @import"../node_modules/bootstrap/scss/bootstrap";

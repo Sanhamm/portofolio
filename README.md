@@ -15,3 +15,5 @@ noroffquality: his is a project i made together with Marthe Bull. This project w
 matblogg: or our last exam of the first year at front end. we was supposed to make a blog. since i personaly like making food and had a lot of recipes on notes in my phone i though i could just put them on a website. We had to make our on API and so i did on Wordpress. i put in my 12 recipes where some i have found out myself and some i have borrowed from other websites.
 
 cms: My first semester project was only ment to use CSS, and from this i made a museum website for science. we got all the text and photos before hand. and the only had to really work on the css. i made it grey and black as the main colors. the design came a little off as this was a challenging project, but the positiv is that i learnt a lot about CSS
+
+
