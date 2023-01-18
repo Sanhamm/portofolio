@@ -1,55 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Project</title>
-    <script src="./index.js" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sander`s portofoilo</title>
+        <script src="./index.js" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-<body>
-    <header>
-        <div>Sanhamm.no</div>
-        <ul>
-            <li>My profile</li>
-            <li>School project</li>
-            <li>Fun project</li>
-            <li>CV</li>
-        </ul>
-    </header>
+    <body>
+    <header class="bg-primary">
+        <nav class="navbar mx-auto navbar-expand-lg navbar-light" style="max-width: 1280px;">
+            <a class="navbar-brand" href="./index.html">Sanhamm.no</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./index.html">About Me</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link active" href="./school-project.html">School Project</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="./fun-project.html">Fun Project</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="./cv.html">CV</a>
+                  </li>
+                  </ul>
+            </div>
+          </nav>    
+        </header>
     <main>
-        <div>
-            <div class="school-project">
-                <img src="./media/Skjermbilde 2023-01-16 kl. 21.54.27.png" alt="front page of bid">
-                <p></p>
-                <p><a href="./bid.html"></a></p>
+        <div class="m-5">
+            <h1 class="text-center h2">My school <span class="text-primary">Projects</span></h1>
+        </div>
+        <div class="container mb-5">
+            <div class="row p-2">
+                <div class="col p-5 mx-4 rounded border">
+                    <img src="./media/Skjermbilde 2023-01-16 kl. 21.54.27.png" alt="front page of bid" class="h-75 w-100 rounded shadow object-fit-fill">
+                    <h2 class="h3 my-3">Bid</h2>
+                    <p>Bid is built with HTML, Tailwind and JavaScript</p>
+                    <a href="./bid.html" class=" border p-1 px-3 text-decoration-none text-black bg-primary rounded border-warning mt-5">Read more</a>
+                </div>
+                <div class="col mx-4 p-5 border rounded shadow-sm">
+                    <img src="./media/Skjermbilde 2023-01-16 kl. 21.33.03.png" alt="Front page of noroff quality" class="h-75 w-100 rounded shadow object-fit-cover">
+                    <h2 class="h3 my-3">Noroff quality</h2>
+                    <p>Noroff quality is built with HTML, CSS and JavaScript</p>
+
+                    <a href="./noroff-quality.html" class=" border p-1 px-3 text-decoration-none text-black bg-primary rounded border-warning">Read more</a>
+                </div>
             </div>
-            <div class="school-project">
-                <img src="./media/Skjermbilde 2023-01-16 kl. 21.33.03.png" alt="Front page of noroff quality">
-                <p></p>
-                <p><a href="./noroff-quality.html"></a></p>
-            </div>
-            <div class="school-project">
-                <img src="./media/Skjermbilde 2023-01-16 kl. 21.41.11.png" alt="Front page of sander mat blogg">
-                <p></p>
-                <p><a href="./matblogg.html"></a></p>
-            </div>
-            <div class="school-project">
-                <img src="./media/Skjermbilde 2023-01-16 kl. 21.53.52.png" alt="front page of CSM">
-                <p></p>
-                <p><a href="./cms.html"></a></p>
+            <div class="row mt-4">   
+                <div class="col border p-5 mx-4 rounded shadow-sm">
+                    <img src="./media/Skjermbilde 2023-01-16 kl. 21.41.11.png" alt="Front page of sander mat blogg" class="h-75 w-100 rounded shadow object-fit-fill">
+                    <h2 class="h3 my-3">Sander´s matblogg</h2>
+                    <p>Sander´s matblogg is built with HTML, CSS and JavaScript</p>
+                    <a href="./matblogg.html" class=" border p-1 px-3 text-decoration-none text-black bg-primary rounded border-warning">Read more</a>
+                </div>
+                <div class="col border p-5 mx-4 rounded shadow-sm ">
+                    <img src="./media/Skjermbilde 2023-01-16 kl. 21.53.52.png" alt="front page of CSM" class="h-75 w-100 rounded shadow object-fit-cover">
+                    <h2 class="h3 my-3 ">CMS</h2>
+                    <p>CMS is built with HTML and CSS</p>
+                    <a href="./cms.html" class=" border p-1 px-3 text-decoration-none text-black bg-primary rounded border-warning">Read more</a>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
-        <ul>
-            <li>My profile</li>
-            <li>School project</li>
-            <li>Fun project</li>
-            <li>CV</li>
-        </ul>
-    </footer>
+    <footer class="bg-secondary text-center text-lg-start">
+        <div class="text-center p-3">
+          © 2022 Sanhamm.no
+        </div>
+      </footer>
 </body>
 </html>

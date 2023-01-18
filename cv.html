@@ -4,87 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Project</title>
+    <title>Sander`s portofoilo</title>
     <script src="./index.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <header>
-        <div>Sanhamm.no</div>
-        <ul>
-            <li>My profile</li>
-            <li>School project</li>
-            <li>Fun project</li>
-            <li>CV</li>
-        </ul>
-    </header>
-    <main>
-        <h1>My CV</h1>
-        <h2> Sander Hammersland</h2>
-        <div>
-            <div>
-                <img src="./media/unnamed.jpg" alt="sander image">
-                <h3 id="contacts">Kontakt</h3>
-                <p id="contacts-text"><a href="">Linkedin</a></p>
-                <h3 id="profile">Profil</h3>
-                <p id="profile-text">Aktiv og livlig student på 25 år
-                    bosatt i Bergen. Har mye erfaring
-                    med kundebehandling og service
-                    fra tidligere jobber. Trives godt 
-                    med å jobbe i tverrfaglige team og
-                    er alltid sulten på å lære mer og 
-                    oppnå faglig utvikling.</p>
-                <p class="keywords">ANSVARSBEVISST</p>
-                <p class="keywords">EFFEKTIV</p>
-                <p class="keywords">ÆRLIG</p>
-                <p class="keywords">LØSNINGSORIENTERT</p>
-                <p class="keywords">LAGSPILLER</p>
+<body class="bg-grey">
+    <header class="bg-primary">
+        <nav class="navbar mx-auto navbar-expand-lg navbar-light" style="max-width: 1280px;">
+            <a class="navbar-brand" href="./index.html">Sanhamm.no</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./index.html">About Me</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="./school-project.html">School Project</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="./fun-project.html">Fun Project</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link active" href="./cv.html">CV</a>
+                  </li>
+                  </ul>
             </div>
-            <div>
-                <div>
-                    <h3>UTDANNING</h3>
-                    <h4>NOROFF FAGSKOLE</h4>
-                    <p>2021-2023</p>
-                    <p>Frontend utvikling ved Noroff School of technology
-                        Klasserepresentant og medlem av studentråd</p>
-                    <h4>Okel Bergen & Omegn</h4>
-                    <p>2016-2017</p>
-                    <p>Vg3 for Elektrolærlinger i bedrift</p>
+          </nav>    
+        </header>
+        <main>
+            <h1 class="text-center mt-3">My <span class="text-primary">CV</span></h1>
+            <div class="container">
+                <div class="row">
+                <div class="col-4 mt-5 border-end">
+                    <img src="./media//IMG_0878.JPG" alt="sander image" class="w-50 h-25 mt-5 img-thumbnail">
+                    <h3 id="contacts" class="mt-5">Kontakt</h3>
+                    <p id="contacts-text" class="mt-2"><a href="">Linkedin</a></p>
+                    <h3 id="profile" class="mt-5">Profil</h3>
+                    <p id="profile-text" class="mt-3 w-75">Aktiv og livlig student på 25 år
+                        bosatt i Bergen. Har mye erfaring
+                        med kundebehandling og service
+                        fra tidligere jobber. Trives godt 
+                        med å jobbe i tverrfaglige team og
+                        er alltid sulten på å lære mer og 
+                        oppnå faglig utvikling.</p>
+                    <p class="keywords mt-5">ANSVARSBEVISST</p>
+                    <p class="keywords">EFFEKTIV</p>
+                    <p class="keywords">ÆRLIG</p>
+                    <p class="keywords">LØSNINGSORIENTERT</p>
+                    <p class="keywords">LAGSPILLER</p>
                 </div>
-                <div>
-                    <h3>ERFARING</h3>
-                    <h4>FAGLIGSELGER HOS ELEKTROIMPORTØREN</h4>
-                    <p>2021 - D.D</p>
-                    <h4>BAS HOS PETTERSSON & GJELLESVIK</h4>
-                    <p>2021 - 2021</p>
-                    <h4>Elektriker hos Pettersson & Gjellesvik, både prosjekt avdeling og service avdeling</h4>
-                    <p>2018 - 2021</p>    
-                    <h4>Elektriker lærling hos Pettersson & Gjellesvik</h4>
-                    <p>2015 - 2018</p>            
+            
+                <div class="col mt-5">
+                    <h2 class="h1"> Sander Hammersland</h2>
+                    <p class="h6">Frontend developer student</p>
+        
+                    <div class="mt-5">
+                        <h3>UTDANNING </h3><hr>
+                        <h4>NOROFF FAGSKOLE</h4>
+                        <p>2021-2023</p>
+                        <p>Frontend utvikling ved Noroff School of technology</p>
+                        <p>Klasserepresentant og medlem av studentråd</p>
+                        <h4>Okel Bergen & Omegn</h4>
+                        <p>2016-2017</p>
+                        <p>Vg3 for Elektrolærlinger i bedrift</p>
+                    </div>
+                    <div>
+                        <h3>ERFARING</h3><hr class="">
+                        <h4>FAGLIGSELGER HOS ELEKTROIMPORTØREN</h4>
+                        <p>2021 - D.D</p>
+                        <h4>BAS HOS PETTERSSON & GJELLESVIK</h4>
+                        <p>2021 - 2021</p>
+                        <h4 >Elektriker hos Pettersson & Gjellesvik,<br> både prosjekt avdeling og service avdeling</h4>
+                        <p>2018 - 2021</p>    
+                        <h4>Elektriker lærling hos Pettersson & Gjellesvik</h4>
+                        <p>2015 - 2018</p>            
+                    </div>
+                    <div>
+                        <h3>ANNET</h3><hr class="">
+                        <h4>PROGRAMVARE</h4>
+                        <p>VScode, HTML, CSS, Javascript, 
+                            Bootstrap, Tailwind, Vite,
+                            Wordpress, SCSS, Figma, Webpack</p>
+                        <h4>SERTIFIKATER</h4>
+                        <p>Førerkort klasse B</p>
+                        <h4>SPRÅK</h4>
+                        <p>Flytende norsk og engelsk.
+                            Muntlig og skriftelig</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>ANNET</h3>
-                    <h4>PROGRAMVARE</h4>
-                    <p>VScode, HTML, CSS, Javascript, 
-                        Bootstrap, Tailwind, Vite,
-                        Wordpress, SCSS, Figma, Webpack</p>
-                    <h4>SERTIFIKATER</h4>
-                    <p>Førerkort klasse B</p>
-                    <h4>SPRÅK</h4>
-                    <p>Flytende norsk og engelsk.
-                        Muntlig og skriftelig</p>
                 </div>
-
             </div>
+        </main>
+        <footer class="bg-secondary text-center text-lg-start">
+        <div class="text-center p-3">
+          © 2022 Sanhamm.no
         </div>
-    </main>
-    <footer>
-        <ul>
-            <li>My profile</li>
-            <li>School project</li>
-            <li>Fun project</li>
-            <li>CV</li>
-        </ul>
-    </footer>
+      </footer>
 </body>
 </html>

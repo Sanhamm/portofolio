@@ -1,0 +1,24 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "This is my portofolio, in this project   i have some of mye school projects,   some small project that show a little of what   i can do and my CV for potenials employer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/custom.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanhamm/portofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanhamm/portofolio/issues"
+  },
+  "homepage": "https://github.com/Sanhamm/portofolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
