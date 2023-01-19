@@ -5,15 +5,56 @@ i have some of mye school projects,
 some small project that show a little of what  
 i can do and my CV for potenials employer.
 
-##
+For this Portofolio i have used Bootstrap, HTML and Vanilla Javascript.
 
-bid: his is my Semester project for 2022, this project are noroff own personal finn.no or ebay.com if you like. We got an API from noroff where we could post our own products where other people could bid on them. I made my with a cool yellow color that i have wanted to try out for a while but never really found the perfect project to set it on. my own main focus for this project was to do good and creativ javascript and try make it as user freandly as possible. For the styling i used Tailwind, first time i tried it but i thought i should give it a go. Took some time to get use to and i feel like a did an ok job, but if i had more time on the project i would have used some more time on the design.  
+## About me
+ This is a short summary of me as a person, a picture of me and a div of my skills so far.
 
+## School Project
+ Here i have gathered some of my bigger school projects, i want to show of my work asweel as my progress of the 2 years i have gone at Noroff.  
+ you can see that mye earliest projects are only with HTML and CSS and that my latest (so far) is with HTML, Tailwind and Javascript.
 
-noroffquality: his is a project i made together with Marthe Bull. This project was ment to make a more clear and more friendly design than the website they have today, we went for a filter option where the events are in focus, since that is what we believed students and teachers would use this page for. after a top grade i am personaly really happy on how this came out, with both the JS and the design.  
+## Fun Project
+ Here i will in the future gather som small but fun project to show of my skills in different kind of programming languages.  
+ Right now i only have 3 different that we have worked on at school, i have designed them but not write the JS, this is just to not have a empty page.  
+ My own project will come soon enough
 
-matblogg: or our last exam of the first year at front end. we was supposed to make a blog. since i personaly like making food and had a lot of recipes on notes in my phone i though i could just put them on a website. We had to make our on API and so i did on Wordpress. i put in my 12 recipes where some i have found out myself and some i have borrowed from other websites.
+## CV
+The last page is my CV, it´s nice to have incase someone will be interested in me.
 
-cms: My first semester project was only ment to use CSS, and from this i made a museum website for science. we got all the text and photos before hand. and the only had to really work on the css. i made it grey and black as the main colors. the design came a little off as this was a challenging project, but the positiv is that i learnt a lot about CSS
+## walkthrough
 
+For this project i started initalising the project, i opened my terminal i VScode and wrote
+
+````
+npm init -y
+````
+
+After this i installed Bootstrap since this was the framework i wanted to use this time. in terminal i wrote 
+
+````
+npm install bootstrap 
+````
+
+Since bootsrap need some modifing i had to use Sass to modifie som code. in terminal i wrote
+
+````
+sass --watch scss/custom.scss:css/style.css
+````
+
+This was to make a file that takes my code in the sass file and push in to bootstrap.  
+But you need to run it so i went in to the package.json file and added this:
+
+````
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/custom.scss:css/style.css"
+  },
+````
+
+Then i just open my terminal and wrote
+
+````
+npm run sass
+````
 
