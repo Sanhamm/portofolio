@@ -1,5 +1,8 @@
 $primary:  #ffc062;
 $secondary: #ffd597;
+.backgroundC {
+    background-color: #FFF4E4;
+}
 
 .mobile-car{
     height: 250px;
@@ -9,8 +12,12 @@ $secondary: #ffd597;
     }
     @media (min-width: 1000px) {
         height: 550px;
-        
+
     }
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;
 }
 
 

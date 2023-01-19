@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.backgroundC {
+  background-color: #FFF4E4;
+}
+
 .mobile-car {
   height: 250px;
 }
@@ -11,6 +15,10 @@
   .mobile-car {
     height: 550px;
   }
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
 }
 
 /*!
