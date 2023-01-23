@@ -7,7 +7,7 @@ i can do and my CV for potenials employer.
 
 For this Portofolio i have used Bootstrap, HTML and Vanilla Javascript.
 
-My website is live at : https://www.sanhamm.no/Portofolio/
+My website is live at : https://www.sanhamm.no/Portofolio/  
 Since i currently have trouble with JS on that page, her is my netlify: https://sanhamm-portofolio.netlify.app/
 
 My wireframe: https://www.figma.com/file/tCkjSgOH6kNU70UFjQ6CrB/Untitled?node-id=0%3A1&t=FyNuy6X3taK9PKnl-1
